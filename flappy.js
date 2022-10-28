@@ -2,7 +2,7 @@
 let move_speed = 3;
 	
 // Gravity constant value
-let gravity = 0.8;
+let gravity = 0.4;
 	
 // Getting reference to the bird element
 let bird = document.querySelector('.bird');
@@ -105,7 +105,7 @@ function apply_gravity() {
 	bird_dy = bird_dy + gravity;
 	document.addEventListener('keydown', (e) => {
 	if (e.key == 'ArrowUp' || e.key == ' ') {
-		bird_dy = -15.0;
+		bird_dy = -7.6;
 	}
 	});
 
