@@ -105,7 +105,7 @@ function apply_gravity() {
 	bird_dy = bird_dy + gravity;
 	document.addEventListener('keydown', (e) => {
 	if (e.key == 'ArrowUp' || e.key == ' ') {
-		bird_dy = -9.0;
+		bird_dy = -15.0;
 	}
 	});
 
